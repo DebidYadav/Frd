@@ -1,0 +1,518 @@
+body {
+    background-color: #EDEDED;
+}
+
+/* Container */
+.container {
+    width: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-family: "calibri";
+    font-weight: bold;
+}
+
+/* Index */
+/* Top */
+.topMethod {
+    width: 680px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Middle */
+.middleMethod {
+    display: grid;
+    place-content: center;
+    grid-template-areas: 
+        'middleMethodLeft middleMethodRight';
+}
+
+.middleMethodLeft {
+    grid-area: middleMethodLeft;
+    width: 320px;
+    height: 300px;
+    margin-right: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #c9c8c8;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.middleMethodLeft button {
+    width: 180px;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow: 5px 3px 5px #000000;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.middleMethodRight {
+    grid-area: middleMethodRight;
+    width: 320px;
+    height: 300px;
+    margin-left: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: #c9c8c8;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.middleMethodRight button {
+    width: 180px;
+    height: 60px;
+    margin-top: 8px;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow: 5px 3px 5px #000000;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.buttomMethod {
+    margin: 30px auto;
+}
+
+.buttomMethod button {
+    width: 150px;
+    height: 50px;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow: 5px 3px 5px #000000;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Water-A */
+/* Top */
+.topWater {
+    display: grid;
+    width: 850px;
+    height: 370px;
+    border: 10px rgb(199, 199, 199);  
+    border-style:double;
+    border-radius: 50px;
+    background-color: white;
+    border: 0 auto;
+}
+
+.topWater img {
+    width: 300px;
+    margin: auto;
+}
+
+/* Buttom */
+.buttomWaterChoice {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-size: 22px;
+    grid-template-areas: 
+        'buttomWaterChoice-A buttomWaterChoice-B buttomWaterChoice-C buttomWaterChoice-D buttomWaterChoice-E';
+}
+
+.buttomWaterChoice-A {
+    grid-area: buttomWaterChoice-A;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 30px 0px 70px;
+    z-index: 1;
+}
+
+.buttomWaterChoice-B {
+    grid-area: buttomWaterChoice-B;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 30px 0px 70px;
+    z-index: 1;
+}
+
+.buttomWaterChoice-C {
+    grid-area: buttomWaterChoice-C;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 30px 0px 70px;
+    z-index: 1;
+}
+
+.buttomWaterChoice-D {
+    grid-area: buttomWaterChoice-D;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 30px 0px 70px;
+    z-index: 1;
+}
+
+.buttomWaterChoice-E {
+    grid-area: buttomWaterChoice-E;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 30px 0px 70px;
+    z-index: 1;
+}
+
+.buttomWater {
+    display: grid;
+    grid-template-areas: 
+        'buttomWater-A buttomWater-B buttomWater-C buttomWater-D buttomWater-E';
+}
+
+.buttomWater-A button {
+    grid-area: buttomWater-A;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 25px;
+    background-color: white;
+    font-size: 14px;
+    z-index: 2;    
+}
+
+.buttomWater-B button{
+    grid-area: buttomWater-B;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 25px;
+    background-color: white;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.buttomWater-C button{
+    grid-area: buttomWater-C;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 25px;
+    background-color: white;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.buttomWater-D button{
+    grid-area: buttomWater-D;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 25px;
+    background-color: white;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.buttomWater-E button{
+    grid-area: buttomWater-E;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 25px;
+    background-color: white;
+    font-size: 14px;
+    z-index: 2; 
+}
+
+
+.buttomWater p {
+    font-size: 0;
+}
+
+.buttomWater-B h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+    font-size: 13px;
+}
+
+.buttonMethod {
+    cursor: pointer;
+}
+
+.buttonMethod:focus-within { 
+    color: black; 
+    border: 4px solid #ff0000;
+}
+
+.buttonDuration {
+    cursor: pointer;
+}
+
+.buttonDuration:focus-within { 
+    color: black; 
+    border: 4px solid #ff0000;
+}
+
+.buttonWater {
+    cursor: pointer;
+}
+
+.buttonWater:focus-within {
+    background: #c9c9c9;
+}
+
+/* Responsive Breakpoint */
+@media (max-width: 768px) {
+    /* Method */
+    .topMethod {
+        width: auto;
+    }
+
+    .middleMethod {
+        grid-template-areas: 
+            'middleMethodLeft'
+            'middleMethodRight';
+    }
+
+    .middleMethodLeft {
+        margin-right: 0px;
+    }
+
+    .middleMethodRight {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    /* Water */
+    .topWater {
+        width: 500px;
+    }
+
+    .buttomWaterChoice {
+        display: none;
+    }
+
+    .buttomWater p {
+        width: 30px;
+        height: 30px;
+        border: 2px solid rgb(199, 199, 199);
+        font-size: 24px;
+        border-radius: 100%;
+        background-color: white;
+        margin: 10px 30px -10px 137px;
+    }
+
+    .buttomWater {
+        display: grid;
+        margin-top: 20px;
+        grid-template-areas: 
+            'buttomWater-A buttomWater-B'
+            'buttomWater-C buttomWater-D'
+            'buttomWater-E 1fr';
+    }
+
+    .buttomWater-A button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-B button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-C button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-D button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-E button{
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    /* Water */
+    .topWater {
+        width: 350px;
+    }
+
+    .buttomWaterChoice {
+        display: none;
+    }
+
+    .buttomWater p {
+        width: 30px;
+        height: 30px;
+        border: 2px solid rgb(199, 199, 199);
+        font-size: 24px;
+        border-radius: 100%;
+        background-color: white;
+        margin: 10px 30px -10px 168px;
+    }
+
+    .buttomWater {
+        display: grid;
+        margin-top: 20px;
+        grid-template-areas: 
+            'buttomWater-A'
+            'buttomWater-B'
+            'buttomWater-C'
+            'buttomWater-D'
+            'buttomWater-E';
+    }
+
+    .buttomWater-A button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-B button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-C button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-D button{
+        margin-top: 10px;
+    }
+    
+    .buttomWater-E button{
+        margin-top: 10px;
+    }
+}
+
+/* css index */
+
+.donate-now {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0;
+    width: 60%;
+    place-content: center;
+    text-align: center;
+  }
+  
+  .donate-now li {
+    width: 180px;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow: 5px 3px 5px #000000;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    
+  }
+  
+  .donate-now label,
+  .donate-now input {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .donate-now input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .donate-now input[type="radio"]:checked+label,
+  .Checked+label {
+    border: solid #ff0000;
+    border-radius: 100px;
+    margin-top: 0px;
+  }
+  
+  .donate-now label {
+    margin-top: 10px;
+    padding: 5px;
+    border: 0px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  /* .donate-now label:hover {
+    background: #DDD;
+  } */
+
+  .donate-now-m {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0;
+    width: 60%;
+    place-content: center;
+    text-align: center;
+  }
+  
+  .donate-now-m li {
+    width: 180px;
+    height: 75px;
+    margin-top: 20px;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow: 5px 3px 5px #000000;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    
+  }
+  
+  .donate-now-m label,
+  .donate-now input {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .donate-now-m input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .donate-now-m input[type="radio"]:checked+label,
+  .Checked+label {
+    border: solid #ff0000;
+    border-radius: 100px;
+    margin-top: 0px;
+  }
+  
+  .donate-now-m label {
+    margin-top: 17px;
+    padding: 5px;
+    border: 0px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+  }

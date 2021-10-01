@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="./js/index.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staying Healthy - Effect of Soap</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form action="water.html" method="POST" target="_blank">
+      <div class="container">
+        <div class="topMethod">
+            <h2>Select a method and duration of handwashing and click submit</h2>
+        </div>
+        <div class="middleMethod">
+            <div class="middleMethodLeft">
+                <p>Method for handwashing</p>
+                <ul class="donate-now-m"> 
+                    <li>
+                      <input type="radio" onclick="check()" id="methodWater" value="water" name="method" />
+                      <label for="methodWater">Water Only</label>
+                    </li>
+                    <li>
+                      <input type="radio" onclick="check()" id="methodSoap" value="soap" name="method" />
+                      <label for="methodSoap">Antiseptic soap + water</label>
+                    </li>
+                  </ul>
+                <!-- <button id="methodWater" onclick=submit() value="water" class="buttonDuration">Water Only</button><br> -->
+                <!-- <button id="methodSoap" onclick=submit() value="soap" class="buttonMethod">Antiseptic soap + water</button> -->
+            </div>
+            <div class="middleMethodRight">
+                <p>Duration of handwashing/s</p>
+                <ul class="donate-now"> 
+                    <li>
+                      <input type="radio" onclick="check()" id="duration10" value="10" name="duration" />
+                      <label for="duration10">10</label>
+                    </li>
+                    <li>
+                      <input type="radio" onclick="check()" id="duration20" value="20" name="duration" />
+                      <label for="duration20">20</label>
+                    </li>
+                    <li>
+                        <input type="radio" onclick="check()" id="duration30" value="30" name="duration" />
+                        <label for="duration30">30</label>
+                      </li>
+                  </ul>
+                <!-- <button id="duration10" onclick=submit() name="duration" value="10" class="buttonDuration">10</button><br>
+                <button id="duration20" onclick=submit() name="duration" value="20" class="buttonDuration">20</button><br>
+                <button id="duration30" onclick=submit() name="duration" value="30" class="buttonDuration">30</button> -->
+            </div>
+        </div>
+        <div class="buttomMethod">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
